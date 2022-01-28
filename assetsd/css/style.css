@@ -1,0 +1,217 @@
+/* ----------------------------------------------------------
+[Master Stylesheet]
+
+Template Name: Suha - Multipurpose Ecommerce Mobile Template
+Template Author: Designing World
+Template Author URL: https://themeforest.net/user/designing-world/portfolio
+Version: 1.0.3
+Last Updated: 20 Dec 2019
+Created: 15 Dec 2019
+---------------------------------------------------------- */
+
+.btn:active,
+.btn:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.btn.btn-green {
+	background-color: #32CD32;
+	color: #fff;
+	font-weight: 500;
+	border: 1px solid #32CD32;
+}
+
+.btn.btn-green:hover {
+	background-color: transparent;
+	color: ##32CD32;
+	border: 1px solid #32CD32;
+	transition: .3s;
+}
+
+.btn.btn-sm {
+	min-width: auto;
+	padding: 5px 10px;
+}
+
+.bg-green,
+.badge-green {
+    background-color: #32CD32 !important; }
+
+.border.border-green {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #32CD32;
+}
+
+.page-content-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 58px; }
+
+.section-padding-30 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.section-padding-0-30 {
+  padding-top: 0;
+  padding-bottom: 30px; }
+
+.section-padding-30-0 {
+  padding-top: 30px;
+  padding-bottom: 0; }
+
+.section-padding-30-14 {
+  padding-top: 30px;
+  padding-bottom: 14px; }
+
+.section-heading {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 1rem; }
+  .section-heading h6 {
+    margin-bottom: 0;
+    color: #747794; }
+  .section-heading p {
+    margin-bottom: 0; }
+
+.card {
+  border-color: #ebebeb;
+  border-radius: 0.5rem; }
+  .card .card-body {
+    padding: 0.75rem; }
+
+.row {
+  margin-right: -8px;
+  margin-left: -8px; }
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  padding-right: 8px;
+  padding-left: 8px; }
+
+.catagory-card {
+  position: relative;
+  z-index: 1;
+  text-align: center; }
+  .catagory-card a {
+    display: block; }
+  .catagory-card img {
+    margin-bottom: 0.6rem;
+    max-height: 42px; }
+  .catagory-card span {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #747794; }
+  .catagory-card:hover span, .catagory-card:focus span {
+    color: #100DD1; }
+
+/* CTA Area */
+.cta-area {
+  position: relative;
+  z-index: 1; }
+  .cta-area .cta-text {
+    position: relative;
+    z-index: 1;
+    border-radius: 0.5rem;
+    background-size: cover; }
+    .cta-area .cta-text p,
+    .cta-area .cta-text h4 {
+      color: #ffffff; }
+    .cta-area .cta-text::after {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      content: "";
+      background: #100DD1;
+      background: -webkit-linear-gradient(to left, #100DD1, #0862fb);
+      background: linear-gradient(to left, #100DD1, #0862fb);
+      z-index: -10;
+      border-radius: .5rem;
+      opacity: .75; }
+
+@media (max-width: 1024px){
+.kt-header-footer--fixed .kt-footer-mobile {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+}
